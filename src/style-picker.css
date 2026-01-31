@@ -1,0 +1,61 @@
+.ButtonsList {
+  list-style: none;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+
+.ColorButtonRow {
+  display: flex;
+  flex-direction: row;
+}
+
+.ColorButtonColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.ColorButtonGroup {
+  display: flex;
+  flex-flow: wrap;
+  gap: 16px;
+  padding: 8px;
+  max-height: 164px;
+  overflow-y: auto;
+}
+
+.ColorButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  box-sizing: border-box;
+  background-color: transparent;
+  outline: 0;
+  border: 0;
+  margin: 0;
+  border-radius: 0;
+  padding: 0;
+  cursor: pointer;
+  user-select: none;
+  vertical-align: middle;
+  appearance: none;
+  text-decoration: none;
+  transition: transform 0.1s ease-in-out;
+}
+
+.ColorButton:hover {
+  transform: scale(1.2);
+}
+
+.ColorFill {
+  width: 24px;
+  height: 24px;
+  z-index: 1;
+  clip-path: path("M 12 0 A 12 12 0 0 1 12 24 A 12 12 0 0 1 12 0 M 12 12 A 0 0 0 0 0 12 12 A 0 0 0 0 0 12 12");
+  transition: clip-path 100ms;
+  box-shadow: rgba(255, 255, 255, 0.4) 0px 0px 0px 1px inset;
+  border-radius: 12px;
+}
