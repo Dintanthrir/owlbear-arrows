@@ -2,6 +2,8 @@
 
 An extension for https://www.owlbear.rodeo which draws arrows.
 
+### Development
+
 See https://docs.owlbear.rodeo/extensions/getting-started
 
 ### Deployment
