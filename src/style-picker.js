@@ -41,7 +41,10 @@ function createPickers(strokeColor, strokeWidth) {
     </div>
   </ul>
   <hr />
-  <input id="strokeWidth" type="range" min="1" max="150" name="Stroke Width" value="${strokeWidth}"/>
+  <div class="StrokeSettings">
+    <img src="/stroke-width.svg" />
+    <input id="strokeWidth" type="range" min="1" max="150" name="Stroke Width" value="${strokeWidth}"/>
+  </div>
   `;
 }
 

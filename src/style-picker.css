@@ -59,3 +59,18 @@
   box-shadow: rgba(255, 255, 255, 0.4) 0px 0px 0px 1px inset;
   border-radius: 12px;
 }
+
+.StrokeSettings {
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+}
+
+.StrokeSettings img {
+  display: inline-flex;
+}
+
+.StrokeSettings input {
+  display: inline-flex;
+  width: 130px;
+}
