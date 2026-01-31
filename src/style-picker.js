@@ -59,7 +59,6 @@ function setupColorPicker(elements) {
 }
 
 function setupWidthSlider(element) {
-  console.debug({element})
   const updateWidth = (event) => {
     OBR.tool.setMetadata(`${ID}/tool`, { strokeWidth: event.target.value })
   };
